@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset = "UTF-8">
+	<title>Rock Paper Scissors</title>
+	<link rel="stylesheet" type="text/css" href="rps.css">
+</head>
+<body>
+	<h1>Rock | Paper | Scissors</h1>
+	<div id="choices">
+		<button class = button type = button id="rock" onclick="play('rock')">Rock <ion-icon name="ellipse-sharp"></ion-icon></button>
+		<button class = button type = button id="paper" onclick="play('paper')">Paper <ion-icon name="document-sharp"></ion-icon></button>
+		<button class = button type = button id="scissors" onclick="play('scissors')">Scissors <ion-icon name="cut-sharp"></ion-icon></button>
+	</div>
+	<div id="result">
+		<p class = fadein1>Choose Rock, Paper, Or Scissors</p>
+	</div>
+	<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+	<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+	<script src="rps.js"></script>
+</body>
+<footer>
+	<a href = "http://www.freepik.com" target = "_blank">Background Image from Freepik</a>
+	<p></p>
+	<a href = "https://ionic.io/ionicons" target = "_blank">Icons from Ionicons</a> 
+</footer>
+</html>
