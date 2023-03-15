@@ -103,11 +103,11 @@ function show_Result(result, userChoice, computerChoice) {
   '<div id="result" class="bordered">' +
   '<h4 class = "timesplayed">Times Played: </h4> <p><span class= fadein2>' +
   timesPlayed + '</span>' + ' Times </p>' + '<h4> Results: </h4>' +
-  '<p class = results><span style="color:green">Wins: </span>' + wins + ' ' +
-  '<span style="color:red">Losses: </span>' + losses + ' '
-  + '<span style = color:gray>Ties: </span>' + ties + '</p>' + '<h4>Choices: </h4>' +
-  '<p class = choices>Rock <ion-icon name="ellipse-sharp"></ion-icon>:  ' + rock + ' ' +
-  'Paper <ion-icon name="document-sharp"></ion-icon>:  ' + paper + ' ' +
+  '<p class = results><span style="color:green">Wins: </span>' + wins + ' | ' +
+  '<span style="color:red">Losses: </span>' + losses + ' | '
+  + '<span style = color:gray>Ties: </span>' + ties + ' ' + '</p>' + '<h4>Choices: </h4>' +
+  '<p class = choices>Rock <ion-icon name="ellipse-sharp"></ion-icon>:  ' + rock + ' | ' +
+  'Paper <ion-icon name="document-sharp"></ion-icon>:  ' + paper + ' | ' +
   'Scissors <ion-icon name="cut-sharp"></ion-icon>:  ' + scissors + ' ' + '</p>' + '</div>';
   }
   
